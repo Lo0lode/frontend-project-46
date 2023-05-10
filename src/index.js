@@ -8,3 +8,4 @@ export default function showDiff(filepath1,filepath2){
     const readFile2 = fs.readFileSync(filepath2)
     console.log('ss   ' +readFile1 + '    ss')
 }
+    
